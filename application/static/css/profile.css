@@ -1,0 +1,44 @@
+.profile-text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0px;
+}
+
+.profile-text h1 {
+  margin: auto;
+}
+
+.profile-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.profile-info .category {
+  padding: 5px;
+  height: 250px;
+  width: 50%;
+  border: 7px solid gainsboro;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.profile-info .info {
+  padding: 5px;
+  height: 250px;
+  width: 50%;
+  border: 7px solid gainsboro;
+  border-radius: 5px;
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.profile-info il {
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=profile.css.map */

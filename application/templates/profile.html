@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section>
+        <div class="container">
+            <div class="profile-text">
+                <h1>User Profile</h1>
+            </div>
+            <div class="profile-info">
+                <div class="category">
+                    <ul>
+                        <il>
+                            <h3>E-mail:</h3>
+                        </il>
+                        <il>
+                            <h3>Balance:</h3>
+                        </il>
+                        <li>
+                            <h3>date:</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <ul>
+                        <il>
+                            <h3>{{ email }}</h3>
+                        </il>
+                        <il>
+                            <h3>{{ amount }}₽</h3>
+                        </il>
+                        <li>
+                            <h3>{{ date }}</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
